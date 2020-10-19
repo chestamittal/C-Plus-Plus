@@ -1,5 +1,12 @@
 var NAVTREEINDEX4 =
 {
+"d9/dee/classdouble__linked__list.html#a3b5f341835034d3a74add60781a65470":[9,0,16,1],
+"d9/dee/classdouble__linked__list.html#a4a68961af2c26e06c7b37f7de57d5e5f":[9,0,16,2],
+"d9/dee/classdouble__linked__list.html#a81a7f2c5fa23359b9ddd541a6c8b49f9":[9,0,16,5],
+"d9/dee/classdouble__linked__list.html#a999c63fbdcc64f1fd367282d417a991e":[9,0,16,0],
+"d9/df0/fast__integer__input_8cpp.html":[10,0,12,4],
+"d9/df0/fast__integer__input_8cpp.html#a4e097ac8509b717bdc8ab09ecd86ae82":[10,0,12,4,0],
+"d9/df0/fast__integer__input_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,12,4,1],
 "d9/dfd/comb__sort_8cpp.html":[10,0,16,2],
 "d9/dfd/comb__sort_8cpp.html#a0f4e7569090083fb53d5cdeaf0e2974f":[10,0,16,2,0],
 "d9/dfd/comb__sort_8cpp.html#a88ec9ad42717780d6caaff9d3d6977f9":[10,0,16,2,3],
@@ -242,12 +249,5 @@ var NAVTREEINDEX4 =
 "dc/d5a/rat__maze_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,0,5,0],
 "dc/d61/classgraph_1_1_graph.html":[9,0,4,1],
 "dc/d61/classgraph_1_1_graph.html#a34414f67c2e3ea89774839b36b1575f8":[9,0,4,1,0],
-"dc/d61/classgraph_1_1_graph.html#ae2f6992450faa2c3da93edea0818869a":[9,0,4,1,1],
-"dc/d61/classgraph_1_1_graph.html#afe3c12683248e50a7a1688b40156a842":[9,0,4,1,2],
-"dc/d93/classmachine__learning_1_1neural__network_1_1layers_1_1_dense_layer.html":[9,0,6,0,0,0],
-"dc/d93/classmachine__learning_1_1neural__network_1_1layers_1_1_dense_layer.html#a11046825be0b6dbb73fbe834aa49200e":[9,0,6,0,0,0,0],
-"dc/d93/classmachine__learning_1_1neural__network_1_1layers_1_1_dense_layer.html#a2871146feaaa453558239df67b21e0d2":[9,0,6,0,0,0,2],
-"dc/d93/classmachine__learning_1_1neural__network_1_1layers_1_1_dense_layer.html#a35ab6f1b2840f89a858ca36b78739b69":[9,0,6,0,0,0,1],
-"dc/d93/classmachine__learning_1_1neural__network_1_1layers_1_1_dense_layer.html#a494d39f6c367071d1fd31b3c1caf1a7d":[9,0,6,0,0,0,10],
-"dc/d93/classmachine__learning_1_1neural__network_1_1layers_1_1_dense_layer.html#a6385ad4d8186b8a74b17e4a8dc41da11":[9,0,6,0,0,0,6]
+"dc/d61/classgraph_1_1_graph.html#ae2f6992450faa2c3da93edea0818869a":[9,0,4,1,1]
 };
