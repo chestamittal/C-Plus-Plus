@@ -127,7 +127,7 @@ var NAVTREEINDEX =
 "d7/d77/class_edge.html#a9a415f211c059647d1b3af8fcf7a0e30",
 "d9/dfd/comb__sort_8cpp.html",
 "dc/d93/classmachine__learning_1_1neural__network_1_1layers_1_1_dense_layer.html#a6c859e3737aa88b29854df0347b29f4e",
-"df/dfb/minimax_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4"
+"dir_074119ce3a874b57120c49a0cc4bb5ad.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
