@@ -91,6 +91,7 @@ $(document).ready(function(){initNavTree('d5/d83/lcm__sum_8cpp.html','../../'); 
 
 <div class="header">
   <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">lcm_sum.cpp File Reference</div>  </div>
@@ -109,11 +110,16 @@ Include dependency graph for lcm_sum.cpp:</div>
 </div>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:dd/d47/namespacemath"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/namespacemath.html">math</a></td></tr>
+<tr class="memdesc:dd/d47/namespacemath"><td class="mdescLeft">&#160;</td><td class="mdescRight">for <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html" title="STL class.">std::vector</a> <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7976931e67cccad2068c32682679de02"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d83/lcm__sum_8cpp.html#a7976931e67cccad2068c32682679de02">lcmSum</a> (int num)</td></tr>
-<tr class="memdesc:a7976931e67cccad2068c32682679de02"><td class="mdescLeft">&#160;</td><td class="mdescRight">for <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html" title="STL class.">std::vector</a>  <a href="../../d5/d83/lcm__sum_8cpp.html#a7976931e67cccad2068c32682679de02">More...</a><br /></td></tr>
-<tr class="separator:a7976931e67cccad2068c32682679de02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e9f9f27e032706ae5fb8889c98267e5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/namespacemath.html#a1e9f9f27e032706ae5fb8889c98267e5">math::lcmSum</a> (int num)</td></tr>
+<tr class="separator:a1e9f9f27e032706ae5fb8889c98267e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8dca7b867074164d5f45b0f3851269d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d83/lcm__sum_8cpp.html#aa8dca7b867074164d5f45b0f3851269d">test</a> ()</td></tr>
 <tr class="separator:aa8dca7b867074164d5f45b0f3851269d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d83/lcm__sum_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
@@ -124,64 +130,6 @@ Functions</h2></td></tr>
 <div class="textblock"><p>An algorithm to calculate the sum LCM(1,n) + LCM(2,n) + .. + LCM(n,n), where LCM(i,n) denotes the Least Common Multiple of the integers i and n. For n greater than or equal to 1. The value of the sum is calculated by formula: ∑LCM(i, n) = ((∑(d * ETF(d)) + 1) * n) / 2. </p>
 <dl class="section author"><dt>Author</dt><dd><a href="https://github.com/chestamittal">Chesta Mittal</a> </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a7976931e67cccad2068c32682679de02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7976931e67cccad2068c32682679de02">&#9670;&nbsp;</a></span>lcmSum()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int lcmSum </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>num</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>for <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html" title="STL class.">std::vector</a> </p>
-<p>for <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> and <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> for assert Function to compute sum of euler totients in sumOfEulerTotient vector </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">num</td><td>input number </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>int Sum of LCMs, i.e. ∑LCM(i, num) from i = 1 to num </dd></dl>
-<div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                    {</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;   </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">int</span> i=0, j=0;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">int</span> limit = 1000;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector &lt;int&gt;</a> eulerTotient(limit);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector &lt;int&gt;</a> sumOfEulerTotient(limit);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;   </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="comment">// storing initial values in eulerTotient vector</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">for</span>(i=1; i&lt;=limit; i++) {</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        eulerTotient[i] = i;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="comment">// applying totient sieve  </span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">for</span>(i=2; i&lt;=limit; i++) {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">if</span>(eulerTotient[i] == i) {</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            <span class="keywordflow">for</span>(j=i; j&lt;=limit; j+=i) {</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                eulerTotient[j] = eulerTotient[j]/i;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                eulerTotient[j] = eulerTotient[j]*(i-1);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            }</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        }</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="comment">// computing sum of euler totients</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordflow">for</span>(i=1; i&lt;=limit; i++) {</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">for</span>(j=i; j &lt;=limit; j+=i) {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            sumOfEulerTotient[j] += eulerTotient[i]*i;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        }</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;   </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">return</span> ((sumOfEulerTotient[num] + 1 ) * num) / 2;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
-</div><!-- fragment -->
-</div>
-</div>
 <a id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&nbsp;</a></span>main()</h2>
 
@@ -200,10 +148,10 @@ Functions</h2></td></tr>
 
 <p>Main function. </p>
 <dl class="section return"><dt>Returns</dt><dd>0 on exit </dd></dl>
-<div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;           {</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <a class="code" href="../../d5/d83/lcm__sum_8cpp.html#aa8dca7b867074164d5f45b0f3851269d">test</a>();  <span class="comment">// execute the tests</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;           {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <a class="code" href="../../d5/d83/lcm__sum_8cpp.html#aa8dca7b867074164d5f45b0f3851269d">test</a>();  <span class="comment">// execute the tests</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -236,32 +184,32 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <p>Function for testing lcmSum function. test cases and assert statement. </p><dl class="section return"><dt>Returns</dt><dd><code>void</code> </dd></dl>
-<div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                   {</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">int</span> n = 2;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d2/de9/heavy__light__decomposition_8cpp.html#a34b8683a2b429de5cce57e6d733ec817">test_1</a> = <a class="code" href="../../d5/d83/lcm__sum_8cpp.html#a7976931e67cccad2068c32682679de02">math::lcmSum</a>(n);</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    assert(<a class="code" href="../../d2/de9/heavy__light__decomposition_8cpp.html#a34b8683a2b429de5cce57e6d733ec817">test_1</a> == 4);</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Passed Test 1!&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    n = 5;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d2/de9/heavy__light__decomposition_8cpp.html#a458410412185a5f09199deaff7157a8d">test_2</a> = <a class="code" href="../../d5/d83/lcm__sum_8cpp.html#a7976931e67cccad2068c32682679de02">math::lcmSum</a>(n);</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    assert(<a class="code" href="../../d2/de9/heavy__light__decomposition_8cpp.html#a458410412185a5f09199deaff7157a8d">test_2</a> == 55);</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Passed Test 2!&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    n = 10;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d2/de9/heavy__light__decomposition_8cpp.html#af31ec5409537703d9c8a47350386b32a">test_3</a> = <a class="code" href="../../d5/d83/lcm__sum_8cpp.html#a7976931e67cccad2068c32682679de02">math::lcmSum</a>(n);</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    assert(<a class="code" href="../../d2/de9/heavy__light__decomposition_8cpp.html#af31ec5409537703d9c8a47350386b32a">test_3</a> == 320);</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Passed Test 3!&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    n = 11;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">int</span> test_4 = <a class="code" href="../../d5/d83/lcm__sum_8cpp.html#a7976931e67cccad2068c32682679de02">math::lcmSum</a>(n);</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    assert(test_4 == 616);</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Passed Test 4!&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    n = 15;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordtype">int</span> test_5 = <a class="code" href="../../d5/d83/lcm__sum_8cpp.html#a7976931e67cccad2068c32682679de02">math::lcmSum</a>(n);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    assert(test_5 == 1110);</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Passed Test 5!&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                   {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">int</span> n = 2;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d2/de9/heavy__light__decomposition_8cpp.html#a34b8683a2b429de5cce57e6d733ec817">test_1</a> = <a class="code" href="../../dd/d47/namespacemath.html#a1e9f9f27e032706ae5fb8889c98267e5">math::lcmSum</a>(n);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    assert(<a class="code" href="../../d2/de9/heavy__light__decomposition_8cpp.html#a34b8683a2b429de5cce57e6d733ec817">test_1</a> == 4);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Passed Test 1!&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    n = 5;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d2/de9/heavy__light__decomposition_8cpp.html#a458410412185a5f09199deaff7157a8d">test_2</a> = <a class="code" href="../../dd/d47/namespacemath.html#a1e9f9f27e032706ae5fb8889c98267e5">math::lcmSum</a>(n);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    assert(<a class="code" href="../../d2/de9/heavy__light__decomposition_8cpp.html#a458410412185a5f09199deaff7157a8d">test_2</a> == 55);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Passed Test 2!&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    n = 10;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d2/de9/heavy__light__decomposition_8cpp.html#af31ec5409537703d9c8a47350386b32a">test_3</a> = <a class="code" href="../../dd/d47/namespacemath.html#a1e9f9f27e032706ae5fb8889c98267e5">math::lcmSum</a>(n);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    assert(<a class="code" href="../../d2/de9/heavy__light__decomposition_8cpp.html#af31ec5409537703d9c8a47350386b32a">test_3</a> == 320);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Passed Test 3!&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    n = 11;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">int</span> test_4 = <a class="code" href="../../dd/d47/namespacemath.html#a1e9f9f27e032706ae5fb8889c98267e5">math::lcmSum</a>(n);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    assert(test_4 == 616);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Passed Test 4!&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    n = 15;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">int</span> test_5 = <a class="code" href="../../dd/d47/namespacemath.html#a1e9f9f27e032706ae5fb8889c98267e5">math::lcmSum</a>(n);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    assert(test_5 == 1110);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Passed Test 5!&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -274,13 +222,12 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="aheavy__light__decomposition_8cpp_html_af31ec5409537703d9c8a47350386b32a"><div class="ttname"><a href="../../d2/de9/heavy__light__decomposition_8cpp.html#af31ec5409537703d9c8a47350386b32a">test_3</a></div><div class="ttdeci">static void test_3()</div><div class="ttdef"><b>Definition:</b> heavy_light_decomposition.cpp:592</div></div>
-<div class="ttc" id="avector_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt; int &gt;</a></div></div>
 <div class="ttc" id="aheavy__light__decomposition_8cpp_html_a458410412185a5f09199deaff7157a8d"><div class="ttname"><a href="../../d2/de9/heavy__light__decomposition_8cpp.html#a458410412185a5f09199deaff7157a8d">test_2</a></div><div class="ttdeci">static void test_2()</div><div class="ttdef"><b>Definition:</b> heavy_light_decomposition.cpp:549</div></div>
-<div class="ttc" id="alcm__sum_8cpp_html_aa8dca7b867074164d5f45b0f3851269d"><div class="ttname"><a href="../../d5/d83/lcm__sum_8cpp.html#aa8dca7b867074164d5f45b0f3851269d">test</a></div><div class="ttdeci">static void test()</div><div class="ttdef"><b>Definition:</b> lcm_sum.cpp:57</div></div>
-<div class="ttc" id="alcm__sum_8cpp_html_a7976931e67cccad2068c32682679de02"><div class="ttname"><a href="../../d5/d83/lcm__sum_8cpp.html#a7976931e67cccad2068c32682679de02">lcmSum</a></div><div class="ttdeci">int lcmSum(int num)</div><div class="ttdoc">for std::vector</div><div class="ttdef"><b>Definition:</b> lcm_sum.cpp:20</div></div>
+<div class="ttc" id="alcm__sum_8cpp_html_aa8dca7b867074164d5f45b0f3851269d"><div class="ttname"><a href="../../d5/d83/lcm__sum_8cpp.html#aa8dca7b867074164d5f45b0f3851269d">test</a></div><div class="ttdeci">static void test()</div><div class="ttdef"><b>Definition:</b> lcm_sum.cpp:63</div></div>
 <div class="ttc" id="abasic_ostream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div></div>
 <div class="ttc" id="aheavy__light__decomposition_8cpp_html_a34b8683a2b429de5cce57e6d733ec817"><div class="ttname"><a href="../../d2/de9/heavy__light__decomposition_8cpp.html#a34b8683a2b429de5cce57e6d733ec817">test_1</a></div><div class="ttdeci">static void test_1()</div><div class="ttdef"><b>Definition:</b> heavy_light_decomposition.cpp:505</div></div>
 <div class="ttc" id="aendl_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a></div><div class="ttdeci">T endl(T... args)</div></div>
+<div class="ttc" id="anamespacemath_html_a1e9f9f27e032706ae5fb8889c98267e5"><div class="ttname"><a href="../../dd/d47/namespacemath.html#a1e9f9f27e032706ae5fb8889c98267e5">math::lcmSum</a></div><div class="ttdeci">int lcmSum(int num)</div><div class="ttdef"><b>Definition:</b> lcm_sum.cpp:25</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
