@@ -51,7 +51,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../dd/d47/namespacemath.html#a741998de380af905151a133071e2c8ca" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="../../dd/d47/namespacemath.html#a04065193d190d605e1f0d0d93a87e244" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="143,-496.5 143,-515.5 223,-515.5 223,-496.5 143,-496.5"/>
 <text text-anchor="middle" x="183" y="-503.5" font-family="Helvetica,sans-Serif" font-size="10.00">math::lcmSum</text>
 </a>
